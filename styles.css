@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    
+    
+body{
+    font-size: 1.8rem; /* 18px */
+}   
+
+
+.topnav{
+    list-style-type: none;
+    overflow: hidden;
+    /* background-color:#f9f8f7; */
+    width: 100%;
+    padding: 2rem;
+    background-color: #e8e3e0;
+    
+}
+
+.item-topnav{
+    float: right;
+    font-size: 2em;
+}
+
+.item-topnav a{
+    display: block;
+    padding: 0.3em;
+    margin: 0.1em;
+    /* When you want to change the font color of the links */
+    color: #212121; 
+    text-decoration: none;
+}
+
+/* .item-topnav a:hover {
+    background-color: #d8c1c0;
+    color: #212121;
+
+  } */
+
+  .main{
+    background-color: #212121;
+  }
+
+    .main h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color:#f9f8f7;
+    padding-top: 1rem;
+    padding-bottom: 0.5em;
+  }
+ 
+    .main h2{
+    font-size: 2rem;
+    background-color: #212121;
+    height: 400px;
+    font-style: italic;
+    margin-bottom: 1em;
+    color: #faec65;
+}
+
+.gallery{
+    border-radius: 1em;
+}
+
+.gallery h3{
+    color:#212121;
+    padding-top: 1em;
+    padding-bottom:1em;
+    font-weight: 400;
+    font-size: 2em;
+    
+}
+
+img{
+    width:100%;
+    border:0.2em solid #faec65;
+    padding: 0.9rem;
+    margin: 0.2em;
+}
+
+.button-box{
+    padding: 1rem;
+    margin: 1em;
+    padding-bottom: 1.5em;
+}
+
+.button {
+    background-color: #212121;
+    color: #d1c8c0;
+    border: none;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.1em 0.1em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+    
+  .button:hover {
+    background-color:#d1c8c0;
+    color: #212121;
+  }
+
+  .contact{
+    padding-top: 2em;
+    background-color: #212121;
+    
+  }
+
+/* Contact section */
+.contact{
+    height: 15em;
+}
+
+.contact h4{
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: #faec65;
+}
+
+.contact p{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #d1c8c0;
+}
+
+/* Contact links */
+
+.rrss-links{
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    background-color:212121;
+    width: 100%;
+    /* padding:2rem; */
+    padding-bottom: 1em;
+    color: #faec65;
+   
+}
+
+.rrss-links{
+    font-size: 1em;
+}
+
+.rrss-links a{
+    display: block;
+    padding: 0.3em;
+    margin: 0.1em;
+    /* When you want to change the font color of the links */
+    color:#faec65; 
+    text-decoration: none;
+}
+
+/* footer */
+.footer{
+    background-color:#e8e3e0;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    color:#212121;
+    width: 100%;
+}
+
+
+  /* @media queries */
+
+  @media screen and (max-width: 576px) {
+    
+    ul.topnav li {float: none;
+        text-align:left;
+        font-size: 1em;
+
+    }
+}
+}
+
+@media screen and (max-width: 768px) {
+    .button{
+        font-size: 1em;  
+    }    
+    }
+    
+@media screen and (max-width: 768px) {
+img{
+    border:none;
+    
+}    
+}
+
+@media screen and (max-width:768px){
+    .contact h4{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .rrss-links a{
+        display:block;
+       
+
+    }
+}
+
+
+    
